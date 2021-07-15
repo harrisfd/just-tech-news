@@ -4,10 +4,10 @@ const sequelize = require('./config/connection');
 const path = require("path")
 const app = express();
 const PORT = process.env.PORT || 3001;
-const helpers = require ("./utils/helpers")
+const helpers = require("./utils/helpers")
 
 const exphbs = require('express-handlebars');
-const hbs = exphbs.create({helpers});
+const hbs = exphbs.create({ helpers });
 
 const session = require('express-session');
 
@@ -39,6 +39,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(routes);
 
 // turn on connection to db and server
-sequelize.sync({ force: false }).then(() => {
+sequelize.sync({ force: true }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
 });
