@@ -30,9 +30,9 @@ github: https://github.com/harrisfd/just-tech-news
 
 ## Usage
 
-<img src="./images/TechBlog-1.jpg" alt="JPG of the deployed application"/>
+<img src="../images/TechBlog-1.jpg" alt="JPG of the deployed application"/>
 
-<img src="./images/TechBlog-2.jpg" alt="JPG of the deployed application"/>
+<img src="../images/TechBlog-2.jpg" alt="JPG of the deployed application"/>
 
 ## Roadmap
 
